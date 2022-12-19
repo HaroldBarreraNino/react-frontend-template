@@ -16,7 +16,7 @@ const Navbar = () => {
                 </ul>
                 <ul>
                     <li>
-                        <Link to='/' className="routelink">¡Oferta del dia!</Link>
+                        <Link to='/dayoffer' className="routelink">¡Oferta del dia!</Link>
                     </li>
                 </ul>
                 <ul>

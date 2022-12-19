@@ -108,6 +108,17 @@ footer{
   border-radius: 20%;
 }
 
+.container-offer{
+  background: #fff;
+  border-radius: 25%;
+  border: 2px solid #fd2902;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  padding: auto;
+}
+
 .clearfix {
   clear: both;
 }

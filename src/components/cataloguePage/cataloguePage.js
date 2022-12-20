@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Book from "../models/book";
 import Navbar from "../navbarComponent/navbar";
+import Footer from "../footerComponent/footer";
 
 const CataloguePage = () => {
 
@@ -55,6 +56,7 @@ const CataloguePage = () => {
             <h1 className="titlePage">CATALOGO</h1>
             <Navbar />
             {galeria}
+            <Footer />
         </>
     );
 }

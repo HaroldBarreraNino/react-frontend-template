@@ -11,7 +11,7 @@ const Navbar = () => {
                 </ul>
                 <ul>
                     <li>
-                        <Link to='/' className="routelink">Catalogo</Link>
+                        <Link to='/catalogue' className="routelink">Catalogo</Link>
                     </li>
                 </ul>
                 <ul>

@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import Book from "../models/book";
+import Navbar from "../navbarComponent/navbar";
 
 const OfferPage = () => {
 
@@ -14,6 +14,7 @@ const OfferPage = () => {
     return (
         <>
             <h1 className="titlePage">¡OFERTA ESPECIAL DEL DIA!</h1>
+            <Navbar />
             <div className="container-offer">
                 <br></br>
                 <p>Compra este libro con un descuento de:</p>
